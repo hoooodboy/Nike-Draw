@@ -1,0 +1,70 @@
+body .body__container {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+    height: 209px;
+    background: #fff;
+}
+
+header .top-menu{
+    display: flex;
+    
+}
+header .top-menu .profil{
+    display: flex; 
+    margin-right: 10px;   
+}
+
+header .top-menu .profil .inta{
+    background-image: url(http://real5781.cdn2.cafe24.com/pc_sns/sns_instagram_white_min.png);
+    height: 28px;
+    width: 28px;
+}
+header .top-menu-right {
+    display: flex;
+    text-align: right;
+    margin-left: 950px;
+}
+header .top-menu-right .login{
+ 
+}
+header .top-menu-right .menu{
+    
+}
+header .top-menu-right a{
+    display: block;
+    margin: 10px;
+    font-weight: 700;
+    color: lightgrey;
+    text-decoration: none;
+}
+header .logo {
+    justify-content: center;
+    margin: 70px 420px;
+}
+
+header .main-menu ul {
+    display: flex;
+    padding: 0px 18px 30px;
+    text-align: center;
+    
+}
+
+header .main-menu ul li{
+    margin-left: 50px;
+    flex-flow: wrap row;
+    align-items: flex-end;
+    color: lightgrey;
+}
+
+header .main-menu ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+body .body-container .img{
+    padding: 300px;
+}

@@ -1,0 +1,563 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+.top-menu {
+    height: 50px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    max-width: 1200px;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+.top-menu a {
+    color: #444444;
+
+}
+
+.top-wrap {
+    display: flex;
+    justify-content: space-between;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.stop-pace {
+    width: 140px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    
+}
+
+.clover {
+    width: 180px;
+    height: 35px;
+}
+
+
+
+.submenu {
+    padding: 60px 135px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 930px;
+    margin: 0 auto;
+    align-items: flex-end;
+    display: border-box;
+
+}
+
+.alert {
+    
+    display: flex;
+
+}
+
+.alert-wrap {
+    width: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-wrap a {
+    color: #000;
+}
+
+.alert-wrap img {
+    width: 18px;
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: column
+}
+
+.alert-wrap {
+}
+
+.alert-wrap {
+    display: flex;
+
+}
+
+.hamburger {
+    width: 15px;
+
+}
+
+
+.category-menu a {
+    font-family: Noto Sans CJK KR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+
+}
+
+.category-menu {
+    padding: 20px 135px;
+    display: flex;
+    max-width: 930px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #DDDDDD;
+    text-indent: -9999px;
+
+}
+
+.party img{
+    
+    width: 1440px;
+    object-fit: cover; 
+    height: 360px;
+
+
+
+}
+
+.party {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.party img {
+    width: 100%;
+    height: 460px;
+}
+
+.table {
+    max-width: 979px;
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(194, 194, 194, 0.4);
+    border-radius: 10px;
+}
+
+.table-wrap {
+    padding: 80px 80px;
+}
+
+.event-search span{
+    color: #92A8D1;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding: 10px 0;
+    
+}
+
+.event-search {
+
+    max-width: 979px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.content span {
+    font-family: Noto Sans KR;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 60px;
+    line-height: 30px;
+    color: #CDCDCD;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: relative;
+}
+
+button {
+    width: 118.06px;
+    height: 30px;
+}
+
+.search-btn {
+    background: #92A8D1;
+
+    border: none;
+    border-radius: 5px;
+
+}
+
+.search-btn span{
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #fff;
+    text-align: center;
+    padding: 7px 18px;
+}
+
+.btn-position {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    font-family: Noto Sans KR;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    color: #444444;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2vw;
+
+}
+
+.imminent {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 2vw;
+    display: border-box;
+
+}
+.imminent_1 {
+    margin-bottom: 100px;
+
+}
+.imminent_2 {
+    margin-bottom: 70px;    
+}
+.imminent_3 {
+    margin-bottom: 65px;    
+}
+.imminent_4 {
+    margin-bottom: 90px;    
+
+}
+
+.meeting {
+    max-width: 280px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px
+    rgba(160, 160, 160, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.meeting img{
+    max-width: 280px;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+
+.imbak {
+    display: flex;
+}
+
+.meeting-contnet {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-header {
+    
+    display: flex;
+
+    padding-top: 28px;
+    justify-content: space-between;
+}
+.head {
+    
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.date {
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.spot {
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 10px;
+    color: #444444;
+}
+
+.gender {
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.fee {
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8BA2CC;
+}
+
+.people {
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6E88B7;
+    padding-right: 1px;
+}
+.men {
+    display: flex;
+}
+
+.slash {
+    font-family: Noto Sans CJK KR;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 4px;
+
+}
+
+.allpeople {
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+
+}
+
+.gender {
+    margin-right: 3px;
+}
+
+.fee {
+    padding-right: 53px;
+    display: border-box;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.men {
+    padding-top: 20px;
+}
+
+.women {
+    padding-top:  10px;
+    padding-bottom: 30px;
+}
+
+.card-left {
+    display: flex;
+}
+
+
+.card-right {
+    display: flex;
+}
+
+.area-group {
+    display: flex;
+}
+
+.area {
+    width: 140px;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Noto Sans KR;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin: 5px;
+
+}
+
+.area_1 {
+    background: #92A8D1;
+    box-shadow: 0px 8px 20px
+    rgba(160, 160, 160, 0.1);
+    border-radius: 30px;
+}
+
+.area_2 {
+    background: #B3C5E7;
+    box-shadow: 0px 8px 20px 
+    rgba(160, 160, 160, 0.1);
+    border-radius: 30px;
+}
+
+.imminent a img {
+    max-width: 340px;
+    width: 100%;
+    filter: drop-shadow(0px 8px 20px rgba(160, 160, 160, 0.1));
+    border-radius: 30px;
+}
+.imminent a {
+    padding: 10px;
+}
+
+footer .line {
+    width: 100%;
+    border-top: 1px solid #BBBBBB;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #222222;
+    
+    
+}
+
+.event-header, .customer-header {
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.information {
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.footer-wrap {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.clover_2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.footer-right {
+    display: flex;
+}
+
+.event {
+    display: flex;
+    flex-flow: wrap column;
+    padding-right: 110px;
+}
+
+.event a {
+    padding-top: 20px ;
+}
+.customer {
+    display: flex;
+    flex-flow: wrap column;
+
+}
+
+.customer a{
+    padding-top: 20px ;
+
+}
+
+
+
+
+
+
+

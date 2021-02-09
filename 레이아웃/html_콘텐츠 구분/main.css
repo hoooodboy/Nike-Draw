@@ -1,0 +1,65 @@
+header{
+    background-color: lightpink;
+    margin: 10px;
+    padding: 20px;
+}
+
+header nav{
+
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+}
+section{
+    width: 70%;
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section h1{
+    
+}
+
+article{
+    background-color: lightskyblue;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+article h2{
+
+} 
+
+aside{
+    width: 30%;
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: lime;
+    margin: 10px;
+    margin: 20px;
+}
+
+footer address{
+
+}
+
+footer address a{
+    display: block;
+}

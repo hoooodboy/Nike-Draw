@@ -1,0 +1,77 @@
+body {
+    background-color: #fff;
+}
+
+.sheet {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 0 auto;
+    margin-top: 17rem;
+}
+
+.logo img{
+    width: 116px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    height: 40px;
+    left: 67px;
+    top: 500px;
+
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    font-family: SpoqaHanSans;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+    letter-spacing: -0.24px;
+
+    color: #737373;
+
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+
+#kakao-button {
+    margin-top: 9rem;
+
+}
+
+#naver-button {
+    margin-top: 1.25rem;
+}
+.kakao-content {
+    display: flex;
+    align-items: center;
+}
+
+.kakao-content img{
+    margin-right: 5px;
+    width: 15px;
+}
+
+.naver-content {
+    display: flex;
+    align-items: center;
+}
+
+.naver-content img {
+    width: 13px;
+    margin-right: 5px;
+}

@@ -1,0 +1,45 @@
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;}
+
+.item {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.item1 {
+    background: #ef9a9a;
+}
+.item2 {
+    background: #f48fb1;
+}
+.item3 {
+    background: #ce93d8;
+}
+.item4 {
+    background: #b39ddb;
+}
+.item5 {
+    background: #90caf9;
+}
+.item6 {
+    background: #a5d6a7;
+}
+.item7 {
+    background: #e6ee9c;
+}
+.item8 {
+    background: #123442;
+}
+.item9 {
+    background: #12312312;
+}
+.item10 {
+    background: #892352;
+}
+
+
